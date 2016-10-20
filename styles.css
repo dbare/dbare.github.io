@@ -1,3 +1,69 @@
+a:link {
+	color: pink;
+}
+
+a:visited {
+	color: green;
+}
+
 body {
-	background: blue;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	text-indent: 20px;
+}
+
+#david_johnson {
+	float: right;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+#melvin_gordon {
+	float: left;
+	margin-left: 50px
+	margin-right: 10px;
+	padding-right: 20px;
+}
+
+#site-intro {
+	background-image: url('images/football_field.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#position-list {
+	border: outset;
+	border-radius: 10px;
+	border-width: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 15%;
+}
+
+.daily-comparison {
+	border: solid;
+	font-family: impact;
+	margin: auto;
+	position: static;
+	text-align: center;
+	width: 50%;
+}
+
+.similar-site {
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+.player-images {
+	margin-top: 15px;
+}
+
+.intro-statment {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
